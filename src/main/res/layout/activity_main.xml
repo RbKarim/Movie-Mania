@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/cinemahall2"
+    >
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/MovieClapperBoardGIFview"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/movieclapperboard" />
+
+    <TextView
+        android:id="@+id/WelcomeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MovieClapperBoardGIFview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/leckerli_one"
+        android:text="Welcome"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/ToTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/WelcomeTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/leckerli_one"
+        android:text="to"
+        android:textColor="#FFFFFF"
+        android:textSize="42sp" />
+
+    <TextView
+        android:id="@+id/MovieTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ToTxt"
+        android:layout_marginTop="3dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/leckerli_one"
+        android:text="Movie Mania"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp" />
+
+
+</RelativeLayout>
